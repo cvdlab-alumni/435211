@@ -83,3 +83,5 @@ def walls():
 
 
     return sud+ovest+est+nord
+
+#VIEW(STRUCT(walls()))

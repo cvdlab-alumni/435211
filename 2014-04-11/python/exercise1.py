@@ -203,9 +203,9 @@ def floors():
     base3 = DIFFERENCE([MKPOL([[[0,0],[8,0],[8,8],[0,8]],[[1,2,3,4]],None]),MKPOL([[[3.35,6],[3.35,3.5],[8,3.5],[8,6]],[[1,2,3,4]],None])])
     roof = [T(2)(0.5)(T(3)([6])(base3))]
 
-#VIEW(STRUCT(floor0+floor1+floor2))
+
 
 
     return floor0+floor1+roof
 
-
+#VIEW(STRUCT(floors()))
